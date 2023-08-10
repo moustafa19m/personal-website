@@ -1,6 +1,4 @@
 import React from 'react'
-import NavItems from "../data/NavItems";
-import NavLink from './NavLink';
 
 export default function HamburgerMenu({isOpen, setIsOpen}) {
   return (
