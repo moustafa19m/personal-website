@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import NavItems from "../data/NavItems";
 import NavLink from "./NavLink";
 import BigButton from "./BigButton";
-import custom from "../consts/tailwind.json"
 import HamburgerMenu from "./HamburgerMenu";
 
 export default function Navbar() {
@@ -17,9 +16,6 @@ export default function Navbar() {
       <div className="md:hidden">
         <HamburgerMenu isOpen={isOpen} setIsOpen={setIsOpen}/>
       </div>
-      {/* <HamburgerMenu className={custom.showSmallOnly}/> */}
-      {/* <div className="md:flex md:items-center md:flex-row md:static md:z-auto
-      mx-6 absolute z-[-1]"> */}
       <ul className={`md:flex-row md:flex md:items-center md:static md:z-auto md:w-auto md:bg-transparent md:pl-0 md:bg-opacity-100 md:opacity-100 
          z-[-1] block bg-black w-full absolute left-0 top-14 pl-7 bg-opacity-75 ${isOpen? 'opacity-100 transition-all ease-in duration-300': 'opacity-0'}`}>
           {
@@ -33,7 +29,6 @@ export default function Navbar() {
           <BigButton className="md:ml-6 my-6 md:my-0"  btnText="Hire Me Now >" onClick={() => console.log('Sign Up')}/>
           </li>
         </ul>
-      {/* </div> */}
     </nav>
   );
 }
