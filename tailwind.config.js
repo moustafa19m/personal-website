@@ -10,6 +10,7 @@ export default {
         black: {
           0: '#eaedf1',
           100: '#939597',
+          200: '#29282A',
           DEFAULT: '#161618',
         },
       },
