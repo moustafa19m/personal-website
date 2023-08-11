@@ -7,7 +7,7 @@ import HamburgerMenu from "./HamburgerMenu";
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
   return (
-    <nav className="flex items-center justify-between py-3 px-6">
+    <nav className="flex items-center justify-between py-3 px-6 lg:px-0">
       <a href="/" className="flex items-center flex-shrink-0 text-white">
         <span>
           <img src="/favicon.svg" alt="logo" className="fill-current h-8 w-8 cursor-pointer" />

@@ -13,6 +13,9 @@ export default {
           200: '#29282A',
           DEFAULT: '#161618',
         },
+        golden: {
+          DEFAULT: '#E1BA3E',
+        }
       },
     },
     screens: {
