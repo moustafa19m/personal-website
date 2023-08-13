@@ -3,7 +3,7 @@ import HeroSection from './HeroSection'
 
 export default function PageBody() {
   return (
-    <div className='px-3 lg:px-0'>
+    <div>
       <HeroSection />
     </div>
   )

@@ -1,9 +1,12 @@
 import React from 'react'
 
-export default function BigButton({btnText, onClick, className}) {
+export default function BigButton({btnText, onClick, className, color}) {
+  if ( color === undefined ) {
+    color = 'golden'
+  }
   return (
-    <button className={`text-golden min-w-max bg-black font-medium border-golden border-2 text-sm px-5 py-2.5
-    hover:bg-golden hover:text-black duration-500 ease-in
+    <button className={`text-${color} min-w-max bg-black font-medium border-${color} border-2 text-sm px-5 py-2.5
+    hover:bg-${color} hover:text-black duration-500 ease-in
     ${className}`}>
       {btnText}
     </button>

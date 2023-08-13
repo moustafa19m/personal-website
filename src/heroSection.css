@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@media (min-width: 1024px) {
+  .lg-hero-height {
+    height: calc(100vh - 68px);
+  }
+}
+
+.margin-auto{
+  margin: auto;
+}
+
+.hero-background{
+  background: rgb(22,22,24);
+  background: linear-gradient(25deg, rgb(16, 16, 17) 32%, rgb(34, 34, 34) 59%, rgba(22,22,24,1) 80%);
+}
