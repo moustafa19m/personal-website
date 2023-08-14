@@ -11,7 +11,9 @@ export default {
           0: '#eaedf1',
           100: '#939597',
           200: '#29282A',
+          grey: "#9B9DA0",
           DEFAULT: '#161618',
+          dark: '#101011'
         },
         golden: {
           DEFAULT: '#E1BA3E',

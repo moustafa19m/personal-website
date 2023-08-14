@@ -1,0 +1,14 @@
+[
+  {
+    "name": "ebay", 
+    "img": "/ebay.png"
+  }, 
+  {
+    "name": "Brown University",
+    "img": "/brown.png"
+  },
+  {
+    "name": "Qualcomm",
+    "img": "/qualcomm.png"
+  }
+]
