@@ -1,0 +1,30 @@
+.resume-grid{
+  display: grid;
+  grid-template-columns: 2fr 1.5fr 2fr;
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 0 2.5rem;
+  grid-template-areas:
+    "section1 button section3"
+    "section2 button section4"
+  ;
+}
+
+.resume-section1{
+  grid-area: section1;
+}
+
+.resume-section2{
+  grid-area: section2;
+}
+
+.resume-section3{
+  grid-area: section3;
+}
+
+.resume-section4{
+  grid-area: section4;
+}
+
+.resume-button{
+  grid-area: button;
+}

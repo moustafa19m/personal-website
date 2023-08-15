@@ -1,0 +1,6 @@
+.top-blog-bg{
+  background-image: url('/Container.png');
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: cover;
+}

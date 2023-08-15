@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Backend Engineering",
+    "image": "/backend_engineering.png",
+    "description": "Backend Engineering is the practice of building and maintaining the technology needed to power the user-facing side of a website or application. This includes the database and all the code that runs on the server to make the website or application work. Backend Engineers are responsible for building and maintaining the technology that powers these components which, typically, are not visible to the user." 
+  },
+  {
+    "name": "Frontend Engineering",
+    "image": "/frontend_engineering.png",
+    "description": "Frontend Engineering is the practice of building and maintaining the technology needed to power the user-facing side of a website or application. This includes the code that runs in the browser to make the website or application work. Frontend Engineers are responsible for building and maintaining the technology that powers these components which, typically, are visible to the user."
+  },
+  {
+    "name": "Machine Learning",
+    "image": "/machine_learning.png",
+    "description": "Machine Learning is the practice of building and maintaining the technology needed to power the user-facing side of a website or application. This includes the code that runs in the browser to make the website or application work. Machine Learning Engineers are responsible for building and maintaining the technology that powers these components which, typically, are visible to the user."
+  },
+  {
+    "name": "Database Design",
+    "image": "/database_design.png",
+    "description": "Database Design is the practice of building and maintaining the technology needed to power the user-facing side of a website or application. This includes the code that runs in the browser to make the website or application work. Database Design Engineers are responsible for building and maintaining the technology that powers these components which, typically, are visible to the user."
+  }
+]
