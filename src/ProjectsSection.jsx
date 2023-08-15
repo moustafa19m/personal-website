@@ -2,6 +2,8 @@ import React from 'react'
 import SectionTitle from './SectionTitle'
 import Project from './Project'
 import './ProjectsSection.css'
+import BigButton from './BigButton'
+import projects from '../data/projects_shortlist.json'
 
 const project = {
   "title": "Project Title",
@@ -28,10 +30,17 @@ export default function ProjectsSection() {
           ]
         } />
         <div className='projects-grid mt-20'>
-          <Project details={project} className="main-project"/>
-          <Project details={project} className="secondary-project"/>
-          <Project details={project} className="secondary-project-2"/>
+          {
+            projects.map((project, index) => {
+              return (
+                <Project key={index} details={project} className={`max-lines-2 ${project.className}`}/>
+              )
+            })
+          }
         </div>
+      </div>
+      <div className='flex items-center justify-center mt-10 w-full'>
+        <BigButton size="l" btnText="View More Projects" onClick={() => console.log('Sign Up')}/>
       </div>
     </section>
   )

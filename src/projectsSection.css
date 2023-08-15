@@ -30,3 +30,12 @@
   grid-area: project3;
   max-height: calc((840px - 2.5rem)/2);
 }
+
+.max-lines-2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+          line-clamp: 2;
+  -webkit-box-orient: vertical;
+}

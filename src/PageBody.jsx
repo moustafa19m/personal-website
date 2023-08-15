@@ -4,15 +4,17 @@ import WorkedAt from './WorkedAt'
 import ProjectsSection from './ProjectsSection'
 import TopBlog from './TopBlog'
 import ResumeSection from './ResumeSection'
+import WritingsSection from './WritingsSection'
 
 export default function PageBody() {
   return (
-    <div>
+    <>
       <HeroSection />
       <WorkedAt />
       <TopBlog />
       <ProjectsSection />
       <ResumeSection />
-    </div>
+      <WritingsSection />
+    </>
   )
 }

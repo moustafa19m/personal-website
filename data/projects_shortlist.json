@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Barmej",
+    "description": "Barmej is an online learning platform that offers courses in programming, design, and entrepreneurship. Barmej is a non-profit initiative that aims to provide free education to everyone.",
+    "image": "/barmej.png",
+    "className": "main-project"
+  },
+  {
+    "name": "Anysend",
+    "description": "Anysend is a file sharing service that allows users to send large files to each other. The service is free and does not require registration.",
+    "image": "/anysend.png",
+    "className": "secondary-project"
+  },
+  {
+    "name": "MuslimFriendly.fyi",
+    "description": "MuslimFriendly.fyi is a website that helps Muslims find halal food and prayer places in their area. The website is available in English, French, and Arabic.",
+    "image": "/muslimfriendly.png",
+    "className": "secondary-project-2"
+  }
+]
