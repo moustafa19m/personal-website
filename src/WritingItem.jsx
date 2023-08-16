@@ -3,7 +3,7 @@ import BigButton from './BigButton'
 
 export default function WritingItem({data}) {
   return (
-    <a className='w-full hover:opacity-60' href={data.link}>
+    <a className='w-full transition-opacity duration-500 ease-in-out lg:hover:!opacity-100 lg:group-hover/list:opacity-50' href={data.link}>
       <div className='relative w-full h-60'>
         <img className="absolute h-full w-full" src={data.image} alt={data.title} />
       </div>

@@ -13,7 +13,7 @@ export default function Project({details, className}) {
       <p className='text-black-100'>
         {details.description}
       </p>
-      <a path="/" className={`my-4 flex flex-row items-center gap-x-2 text-black-0 cursor-pointer hover:text-golden ease-in transition-500`}>
+      <a path="/" className={`my-4 flex flex-row items-center hover:gap-x-2 transition-all duration-500 ease-in text-black-0 cursor-pointer hover:text-golden ease-in transition-500`}>
         <p>
           Learn More
         </p>

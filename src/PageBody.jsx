@@ -5,6 +5,9 @@ import ProjectsSection from './ProjectsSection'
 import TopBlog from './TopBlog'
 import ResumeSection from './ResumeSection'
 import WritingsSection from './WritingsSection'
+import Tag from './Tag'
+import SubscribeSection from './SubscribeSection'
+
 
 export default function PageBody() {
   return (
@@ -15,6 +18,7 @@ export default function PageBody() {
       <ProjectsSection />
       <ResumeSection />
       <WritingsSection />
+      <SubscribeSection />
     </>
   )
 }

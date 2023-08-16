@@ -30,10 +30,9 @@ export default function HeroSection() {
               <span className="text-golden">Engineer</span>
             </p>
           </div>
-          <div className='flex flex-col gap-y-10 justify-items-start'>
+          {/* <div className='flex flex-col gap-y-10 justify-items-start'> */}
             <BigButton size='2xl' className="w-min px-8 py-6" btnText="Explore My Work" onClick={() => console.log('Sign Up')}/>
-            <HoverLink size="2xl" href="/about" label={"Download Resume"} Icon={IoCodeDownloadSharp} iconSize='1.5em'/>
-          </div>
+          {/* </div> */}
         </div>
         <div className="flex-3 relative self-center">
           <img src="/profile-transparent.png"

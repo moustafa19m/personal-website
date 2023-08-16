@@ -25,13 +25,8 @@ export default function WritingsSection() {
           ]
         } 
       />
-        <div className='mt-20 writings-grid'>
+        <div className='mt-20 writings-grid group/list'>
           {
-            writings.map((writing, index) => (
-              <WritingItem key={index} data={writing} />
-            ))
-          }
-                    {
             writings.map((writing, index) => (
               <WritingItem key={index} data={writing} />
             ))
@@ -40,7 +35,6 @@ export default function WritingsSection() {
         <div className='flex items-center justify-center mt-10 w-full'>
           <BigButton size="l" btnText="Visit My Blog" onClick={() => console.log('Sign Up')}/>
         </div>
-        {/* <BigButton className="mt-10 mx-auto" btnText="Visit My Blog" onClick={() => console.log('Sign Up')}/> */}
       </div>
     </section>
   )

@@ -26,7 +26,7 @@ export default function Navbar() {
             )
           )}
           <li>
-          <BigButton className="md:ml-6 my-6 md:my-0"  btnText="Hire Me Now >" onClick={() => console.log('Sign Up')}/>
+          <BigButton className="md:ml-6 my-6 md:my-0"  btnText="Download Resume" onClick={() => console.log('Sign Up')}/>
           </li>
         </ul>
     </nav>

@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.golden-curosr {
+  caret-color: '#E1BA3E';
+}
+
 .statoshi-font {
   font-family: 'Satoshi', sans-serif;
 }
