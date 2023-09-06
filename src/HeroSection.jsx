@@ -1,5 +1,6 @@
 import React from 'react'
 import BigButton from './BigButton'
+import SocialsWidget from './SocialsWidget'
 
 export default function HeroSection() {
   return (
@@ -11,8 +12,8 @@ export default function HeroSection() {
               alt="hero image"
               className="w-max aspect-auto" />
       </div> */}
-      <div className="flex flex-col flex-2 gap-y-10 justify-items-start h-full">
-        <div className="flex flex-row items-center gap-x-2">
+      <div className="flex flex-col flex-2 gap-y-10 justify-items-start h-full relative">
+        <div className="flex flex-row items-center gap-x-2 ">
           <h1 className="text-2xl poppins-font text-black-0">
             Hey! I'm Moustafa Makhlouf
           </h1>
@@ -26,6 +27,7 @@ export default function HeroSection() {
           </p>
         </div>
         <BigButton className="w-min" btnText="Explore My Work" onClick={() => console.log('Sign Up')}/>
+        <SocialsWidget />
       </div>
       <div className="flex-3 flex items-center justify-center h-full z-[-10]">
         <img src="../public/profile-transparent.png"
